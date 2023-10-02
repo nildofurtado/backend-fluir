@@ -3,16 +3,7 @@
 namespace App\Services\User;
 
 use App\Models\User;
-use App\Enum\UserRegisterStatusEnum;
-use App\Repositories\User\Contract\UserRepositoryContract;
-use App\Services\User\Contract\UserServiceContract;
-use Carbon\Carbon;
-use Illuminate\Http\JsonResponse;
-use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Facades\Validator;
-use Laravel\Socialite\Facades\Socialite;
 
 class UserService implements UserServiceContract
 {
